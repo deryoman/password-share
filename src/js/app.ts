@@ -42,7 +42,6 @@ boot(async function () {
                 insert(encryptedData.iv, encryptedData.cipherText)
                     .then(id => {
                         const link = new Link(content)
-                        console.log(encryptedData.key)
                         link.setURL(createUrl(id, encryptedData.key))
                     })
             })
