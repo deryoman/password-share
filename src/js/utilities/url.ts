@@ -1,5 +1,3 @@
-import {Base64} from "js-base64";
-
 export const createUrl = (id: string, key: string): URL => {
     const url = new URL(window.location.href)
 

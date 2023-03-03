@@ -1,4 +1,4 @@
-import {createClient, SupabaseClient} from '@supabase/supabase-js'
+import {createClient} from '@supabase/supabase-js'
 import {nanoid} from "nanoid";
 import {Database} from "../types/supabase";
 

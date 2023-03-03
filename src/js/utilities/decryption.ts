@@ -11,7 +11,7 @@ const importKey = async (rawKey: string): Promise<CryptoKey> => {
     )
 }
 
-export const decrypt = async ({ key, iv, cipherText }: EncryptionData): Promise<string> => {
+export const decrypt = async ({key, iv, cipherText}: EncryptionData): Promise<string> => {
     const dec = new TextDecoder()
     const importedKey = await importKey(key)
 
