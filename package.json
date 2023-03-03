@@ -1,0 +1,32 @@
+{
+  "name": "password-share",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deryoman/password-share.git"
+  },
+  "author": "Julian Seiss",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/deryoman/password-share/issues"
+  },
+  "homepage": "https://github.com/deryoman/password-share#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.4",
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.8.0",
+    "js-base64": "^3.7.5",
+    "nanoid": "^4.0.1"
+  }
+}
