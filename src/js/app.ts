@@ -21,7 +21,7 @@ boot(async function () {
 
     // Too lazy to introduce 11ty etc. We will use server side rendering later on.
     const dataFromUrl = getDataFromUrl();
-    if (dataFromUrl.id && dataFromUrl.key) {
+    if (dataFromUrl) {
         const result = new Result(content)
 
         const data = await get(dataFromUrl.id);
